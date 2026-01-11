@@ -24,7 +24,7 @@ const OriginGallery: React.FC = () => {
             <div className="aspect-video overflow-hidden shadow-2xl relative group">
               <img 
                 src="https://i.imgur.com/UpBJzAh.jpeg" 
-                alt="Origen de la madera SERFECO" 
+                alt="Origen de la madera MaderasMyR" 
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-serfeco-dark/20 group-hover:bg-transparent transition-colors"></div>
@@ -60,7 +60,7 @@ const OriginGallery: React.FC = () => {
                 />
               </div>
               <div className="mt-4 p-6 bg-serfeco-light border-l-4 border-serfeco-blue">
-                <p className="text-xs font-bold text-serfeco-blue uppercase tracking-widest mb-2">Compromiso SERFECO</p>
+                <p className="text-xs font-bold text-serfeco-blue uppercase tracking-widest mb-2">Compromiso MaderasMyR</p>
                 <p className="text-sm text-serfeco-gray italic">"Madera genuina, tratada con respeto para construcciones que trascienden."</p>
               </div>
             </div>

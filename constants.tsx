@@ -1,7 +1,7 @@
 
 import { ServiceCategory, WorkflowStep, ContactInfo } from './types';
 
-export const BRAND_NAME = "SERFECO";
+export const BRAND_NAME = "MaderasMyR";
 export const BRAND_LOGO = "https://i.imgur.com/Pu7BtWd.png";
 
 export const SERVICES: ServiceCategory[] = [
@@ -53,9 +53,9 @@ export const WORKFLOW: WorkflowStep[] = [
 export const CONTACT_INFO: ContactInfo = {
   phone: "+506 6011 5347",
   whatsapp: "https://wa.me/50660115347",
-  email: "info@serfeco.com",
-  website: "https://serfeco.com",
-  linkedin: "https://www.linkedin.com/company/serfeco/",
+  email: "info@maderasmyr.com",
+  website: "https://maderasmyr.com",
+  linkedin: "https://www.linkedin.com/company/maderasmyr/",
   facebook: "https://www.facebook.com/share/1Kpkk6CQZ3/?mibextid=wwXIfr"
 };
 

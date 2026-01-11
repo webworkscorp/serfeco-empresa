@@ -37,7 +37,7 @@ const About: React.FC = () => {
               <img 
                 src="https://i.imgur.com/iWcegJl.jpeg" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
-                alt="Proyecto SERFECO" 
+                alt="Proyecto MaderasMyR" 
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-serfeco-blue px-8 py-6 text-white shadow-2xl">

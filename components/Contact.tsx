@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     if (!name.trim() || !inquiry.trim()) return;
 
-    const message = `Consulta SERFECO\nNombre: ${name}\nDetalles del proyecto: ${inquiry}`;
+    const message = `Consulta MaderasMyR\nNombre: ${name}\nDetalles del proyecto: ${inquiry}`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `${CONTACT_INFO.whatsapp}?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
