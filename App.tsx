@@ -1,13 +1,13 @@
 
 import React, { useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import OriginGallery from './components/OriginGallery';
-import Services from './components/Services';
-import Process from './components/Process';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import OriginGallery from './components/OriginGallery.tsx';
+import Services from './components/Services.tsx';
+import Process from './components/Process.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   useEffect(() => {
