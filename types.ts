@@ -15,7 +15,7 @@ export interface WorkflowStep {
 export interface ContactInfo {
   phone: string;
   whatsapp: string;
-  email: string;
+  emails: string[];
   website: string;
   linkedin: string;
   facebook: string;

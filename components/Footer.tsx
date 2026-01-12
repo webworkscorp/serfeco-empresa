@@ -95,7 +95,11 @@ const Footer: React.FC = () => {
             <h4 className="text-[10px] font-bold uppercase tracking-widest text-serfeco-gold mb-4">Contacto</h4>
             <ul className="space-y-2 text-xs text-white/60">
               <li>{CONTACT_INFO.phone}</li>
-              <li><a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-white">{CONTACT_INFO.email}</a></li>
+              {CONTACT_INFO.emails.map((email, idx) => (
+                <li key={idx}>
+                  <a href={`mailto:${email}`} className="hover:text-white transition-colors">{email}</a>
+                </li>
+              ))}
               <li>San José, Costa Rica</li>
             </ul>
           </div>

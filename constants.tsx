@@ -53,7 +53,7 @@ export const WORKFLOW: WorkflowStep[] = [
 export const CONTACT_INFO: ContactInfo = {
   phone: "+506 6011 5347",
   whatsapp: "https://wa.me/50660115347",
-  email: "info@maderasmyr.com",
+  emails: ["allan1roab@hotmail.com", "celiamora2@gmail.com"],
   website: "https://maderasmyr.com",
   linkedin: "https://www.linkedin.com/company/maderasmyr/",
   facebook: "https://www.facebook.com/share/1Kpkk6CQZ3/?mibextid=wwXIfr"
